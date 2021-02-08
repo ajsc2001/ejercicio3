@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Media queries-Ejercicio 1</title>
+    <meta name="description" content="HTML5">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   
+</head>
+
+<style>
+header{
+	background-color: green;
+	text-align: center;
+	font-weight: bold;
+}
+@media only screen and (min-width: 550px) and (max-width:768px){
+	header{
+		background-color: orange;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width:1199px){
+	header{
+		background-color:red;
+	}
+
+}
+@media (min-width: 1200px){
+	header{
+		background-color:grey;
+	}
+}
+
+</style>
+
+<body>
+
+ <header><h3>Encabezado responsivo</h3></header>
+
+</body>
+
+</html>
